@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.moham.buzzletask.MainActivity">
+
+    <TableRow>
+
+        <FrameLayout
+            android:id="@+id/f1"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="onf1">
+
+            <ImageView
+                android:id="@+id/i1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i1"
+                android:tag="i1" />
+
+            <ImageView
+                android:id="@+id/n1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f2"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i2"
+                android:tag="i2" />
+
+            <ImageView
+                android:id="@+id/n2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f3"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i3"
+                android:tag="i3" />
+
+            <ImageView
+                android:id="@+id/n3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f4"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+
+                android:id="@+id/i4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i4"
+                android:tag="i4" />
+
+            <ImageView
+                android:id="@+id/n4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout
+            android:id="@+id/f5"
+
+            android:layout_marginBottom="30dp"
+
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/i5"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i5"
+                android:tag="i5" />
+
+            <ImageView
+                android:id="@+id/n5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f6"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:id="@+id/i6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i6"
+                android:tag="i6" />
+
+            <ImageView
+                android:id="@+id/n6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f7"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i7"
+                android:tag="i7" />
+
+            <ImageView
+                android:id="@+id/n7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f8"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i8"
+                android:tag="i8" />
+
+            <ImageView
+                android:id="@+id/n8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout
+            android:id="@+id/f9"
+            android:layout_marginBottom="30dp"
+
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/i9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i1"
+                android:tag="i9" />
+
+            <ImageView
+                android:id="@+id/n9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f10"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i2"
+                android:tag="i10" />
+
+            <ImageView
+                android:id="@+id/n10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f11"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i3"
+                android:tag="i11" />
+
+            <ImageView
+                android:id="@+id/n11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f12"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i4"
+                android:tag="i12" />
+
+            <ImageView
+                android:id="@+id/n12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <FrameLayout
+            android:id="@+id/f13"
+            android:layout_marginBottom="30dp"
+
+            android:layout_marginLeft="20dp">
+
+            <ImageView
+                android:id="@+id/i13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i5"
+                android:tag="i13" />
+
+            <ImageView
+                android:id="@+id/n13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f14"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i6"
+                android:tag="i14" />
+
+            <ImageView
+                android:id="@+id/n14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f15"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i7"
+                android:tag="i15" />
+
+            <ImageView
+                android:id="@+id/n15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/f16"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/i16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/i8"
+                android:tag="i16" />
+
+            <ImageView
+                android:id="@+id/n16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/n" />
+
+        </FrameLayout>
+
+
+    </TableRow>
+
+
+</TableLayout>
